@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-color: #D9D9D9;
+color: #11020B;
+}
+
+footer{
+    background-color: #D9D9D9;
+    color: #11020B;
+}
+
+body{
+    background-color: #11020B;
+    color: #D9D9D9;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.3px;
+}
