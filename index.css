@@ -17,11 +17,11 @@ body {
 
 header {
     display: flex;
-    gap: 12px;
+    gap: 0px;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: #D9D9D9;
     color: #11020B;
@@ -30,10 +30,14 @@ header {
 header h2{
   align-items: left;
   text-align: left;
-  flex-grow: 1;
+  flex-grow: 2;
+  padding-bottom: 2px;
+  margin-left: 0px;
 }
 .logo {
-  padding: 30px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 2px;
 }
 
 header li{
@@ -60,5 +64,5 @@ a {
     color: #A3281C;
     transition: color ease;
     text-decoration: none;
-    font-weight:800;
+    font-weight:1000;
   }
