@@ -1,26 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 
-header{
-background-color: #D9D9D9;
-color: #11020B;
-}
-
-footer{
-    background-color: #D9D9D9;
-    color: #11020B;
-}
-
-body{
+body {
     background-color: #11020B;
     color: #D9D9D9;
-    font-family: 'Jost', sans-serif;
-    font-weight: 300;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.3px;
 }
+
+header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    background-color: #D9D9D9;
+    color: #11020B;
+}
+
+header h2{
+  align-items: left;
+  text-align: left;
+  flex-grow: 1;
+}
+.logo {
+  padding: 30px;
+}
+
+header li{
+    align-items: right;
+}
+
+ul {
+  display: flex;
+    gap: 20px;
+    list-style: none; 
+    padding: 30px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: #11020B;
+  }
+  
+  a:visited {
+    color: #11020B;
+  }
+  
+  a:hover {
+    color: #A3281C;
+    transition: color ease;
+    text-decoration: none;
+    font-weight:800;
+  }
