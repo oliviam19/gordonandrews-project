@@ -345,14 +345,28 @@ main {
   }
   
   .hero {
-    width: 100%;
+    width: 1400px;
     height: 100vh;
-    position: relative;
-    padding,margin: 0;
+    margin: 0;
   }
+
+  
+  .hero h1 {
+    font-size: 180px;
+    margin: 0;
+    padding: 100px;
+    position:relative;
+    text-align: right;
+    padding-top: 440px;
+  } 
+
+ .hero h3 {
+ margin-left: 10px;
+ margin-top: 200px;
+ }
   
   .hero-img {
-    width: 1000px;
+    width: 1400px;
     height: auto;
     object-fit: cover;
     position: absolute;
@@ -402,5 +416,5 @@ main {
     font-size: 64px; 
     padding: 36px; 
   }
-    
+
 }
