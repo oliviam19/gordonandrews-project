@@ -27,7 +27,7 @@ header {
   color: #11020B;
   width: 100%;
   z-index: 10;
-  padding: 10px 30px; /* Add some padding to header */
+  padding: 10px 30px;
 }
 
 header h2 {
@@ -117,7 +117,7 @@ h3 {
   margin-right: 100px;
 }
 
-p{
+p {
   padding: 100px;
   font-size: 20px;
   word-spacing: 2px;
@@ -136,11 +136,11 @@ footer {
   min-height: 140px;
 }
 
-footer p{
+footer p {
   padding: 0px;
   text-align: center; 
   font-size: 12px;
-  line-height:auto;
+  line-height: auto;
 }
 
 .footer-content {
@@ -166,7 +166,16 @@ main {
   padding-top: 0px;
 }
 
-.thumbnail-1, .thumbnail-3 {
+.thumbnail-1 {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnail-3 {
   width: 32%;
   display: flex;
   justify-content: center;
@@ -190,5 +199,116 @@ main {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
+.thumbnail-1:hover img, 
+.thumbnail-2:hover img, 
+.thumbnail-3:hover img {
+  transform: scale(1.05);
+}
+
+.thumbnail-text1 {
+  position: absolute;
+  transform: translate(120px, -135px);
+  color: #D9D9D9; 
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+  background-color: #A3281C;
+  border-radius: 20px;
+  padding: 16px;
+  line-height: 16px;
+}
+
+.thumbnail-text2 {
+  position: absolute;
+  transform: translate(80px, -135px);
+  color: #D9D9D9; 
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+  background-color: #AD9BB2;
+  border-radius: 20px;
+  padding: 16px;
+  line-height: 16px;
+}
+
+.thumbnail-text3 {
+  position: absolute;
+  transform: translate(145px, -140px);
+  color: #D9D9D9; 
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+  background-color: #7FA7CF;
+  border-radius: 20px;
+  padding: 16px;
+  line-height: 16px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+/* ------------------------------------ MOBILE VIEW BELOW ----------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #D9D9D9;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .hamburger-menu {
+      display: block;
+      font-size: 30px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #11020B;
+      position: absolute;
+      top: 5px;
+      right: 30px;
+      width: 35px;
+      height: 25px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      padding: 0;
+  }
+
+  nav li {
+      padding: 15px 0;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  header h2 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+}
