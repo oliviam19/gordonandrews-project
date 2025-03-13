@@ -12,21 +12,29 @@
 
 <body>
 
-    <header>
-        <img class="logo"
-        width="10%"
-        alt="Logo"
-        src="images/logo-01.png"/>
-        
-        <h2>GORDON ANDREWS</h2>
+  
+  <header>
+    <img class="logo" width="10%" alt="Logo" src="images/logo-01.png"/>
+    <h2>GORDON ANDREWS</h2>
+
+    <!-- Hamburger Menu Button -->
+    <button class="hamburger-menu" aria-label="Menu">
+        ☰
+    </button>
+
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="influence.html">Influence</a></li>
             <li><a href="work.html">Work</a></li>
+        </ul>
     </nav>
-    </header>
+</header>
+
+<!-- Link to the external menu script -->
+<script src="menu.js"></script>
+
 
     <main>
         <div class="hero">
@@ -41,43 +49,31 @@
         <!-- Thumbnails: -->
       <div class="thumbnail-grid">
         <div class="thumbnail-1">
-          <figure>
-            <figcaption>
+            <figure>
               <a href="about.html">
-                <img
-                  src="images/20 button-01.png"
-                  alt="Alt Text"
-                  height="200px";
-              /></a>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="thumbnail-2">
-          <figure>
-            <figcaption>
-              <a href="influence.html"
-                ><img
-                  src="images/5 button-01.png"
-                  alt="Alt Text"
-                  height="200px";
-              /></a>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="thumbnail-3">
-          <figure>
-            <figcaption>
+                <img src="images/20 button-01.png" alt="Alt Text" height="200px">
+              </a>
+              <div class="thumbnail-text1">About</div>
+            </figure>
+          </div>
+          
+          <div class="thumbnail-2">
+            <figure>
+              <a href="influence.html">
+                <img src="images/5 button-01.png" alt="Alt Text" height="200px">
+              </a>
+              <div class="thumbnail-text2">Influence</div>
+            </figure>
+          </div>
+          
+          <div class="thumbnail-3">
+            <figure>
               <a href="work.html">
-                <img
-                  src="images/10 button-01.png"
-                  alt="Alt Text"
-                  height="200px";
-              /></a>
-            </figcaption>
-          </figure>
-        </div>
+                <img src="images/10 button-01.png" alt="Alt Text" height="200px">
+              </a>
+              <div class="thumbnail-text3">Work</div>
+            </figure>
+          </div>          
       </div>
 
     </main>
