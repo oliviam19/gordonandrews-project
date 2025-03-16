@@ -315,7 +315,49 @@ position: relative;
 z-index: 1;
 }
 
+.about-text{
+  padding-top: 50px;
+}
 
+.about-text h5{
+  font-size: 40px;
+  color: #D9D9D9;
+  background-color: #A3281C;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline block;
+  max-width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 90px;
+}
+
+.about-text p{
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-top: 0;
+}
+
+.joankerr p{
+  background-color: #A3281C;
+  border-radius: 40px;
+  width: 870px;
+  padding: 10px;
+  margin-left: 90px;
+}
+
+.joankerr p a {
+  color: #D9D9D9;
+  text-decoration: underline;
+}
+
+.joankerr p a:visited {
+  color: #D9D9D9;
+}
+
+.joankerr p a:hover {
+  color: #D9D9D9;
+}
 
 
 /* ------------------------------------ MOBILE VIEW BELOW ----------------------------------------------- */
@@ -541,4 +583,53 @@ main {
     padding: 0;
     width: 100%;
   }
+
+
+/*--------------- ABOUT PAGE:---------------- */
+  
+h4{
+ 
+ font-size: 20px;
+ padding: 0;
+ padding-left: 2px;
+ padding-right: 2px;
+ display: inline block;
+  max-width: fit-content;
+ margin-left: 5px;
+ border-radius: 14px;
+ top: 90px;
 }
+
+.hero-about-img {
+top: -20px;
+}
+
+.about-text{
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.about-text h5{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.about-text p{
+ margin-left: 10px;
+}
+
+.joankerr p {
+  margin-left: 50px;
+  font-size: 10px;
+  padding: 20px;
+  width: 200px;
+  color: #D9D9D9;
+}
+
+}
+
+
