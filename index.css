@@ -756,15 +756,15 @@ z-index: 1;
   }
 
   .gallery {
-    column-count: 2;  /* Creates two staggered columns */
-    column-gap: 10px;
+    column-count: 2; 
+    column-gap: 18px;
     padding: 20px;
 }
 
 .gallery__item {
-    display: inline-block; /* Allows images to wrap correctly */
+    display: inline-block;
     width: 100%;
-    margin-bottom: 10px; /* Adds spacing between items */
+    margin-bottom: 10px;
 }
 
 .gallery__item img {
