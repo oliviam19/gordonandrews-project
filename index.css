@@ -408,6 +408,65 @@ z-index: 1;
 
 
 
+.work-header{
+  width: 100vw;
+  height: 160px;
+  padding: 40px;
+  padding-bottom: 0px;
+  margin: 0;
+  background-color: none;
+
+}
+
+.work-header h4 {
+  background-color: #7FA7CF;
+  padding: 40px;
+  width: 100vw;
+  margin: 0;
+  padding-top: 100px;
+  margin-left: -50px;
+  margin-right: 35%;
+  margin-top: 0;
+  font-size: 6rem;
+  text-align: center;
+  border-radius: 0;
+  position: relative;
+  top: 0;
+  margin-bottom: 100px;
+}
+
+.gallery {
+  margin-top: 200px;
+  column-count: 3; 
+  gap: 30px;
+  padding: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.gallery__item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.gallery__item img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#image1 img{
+margin-top: 0px;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+#image3 {
+margin-top: -60px;
+}
 
 
 
@@ -691,24 +750,26 @@ z-index: 1;
    
   .white-space {
     height: 100px;
-    margin-top: -50px;
+    margin-top: -10px;
   }
   
   .hero-influence-img {
     height: auto;
-    margin-top: -4px;
+    margin-top: -5%;
   }
   
-  .influence-header h4 {
+  .influence-header h4{
     width: 90%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 20px;
     padding: 4px;
+    margin-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: -20px;
+    margin-top: -25px;
     border-radius: 8px;
   }
   
@@ -734,9 +795,9 @@ z-index: 1;
   
   .work-header{
     width: 100vw;
-    height: 145px;
+    height: 160px;
     padding: 0;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin: 0;
     background-color: #7FA7CF;
   
@@ -745,11 +806,13 @@ z-index: 1;
   .work-header h4 {
     background-color: #7FA7CF;
     padding: 20px;
+    padding-bottom: 0px;
     width: 100vw;
     margin: 0;
     padding-top: 0;
-    margin-left: 60px;
-    font-size: 18px;
+    margin-left: 33%;
+    margin-right: 35%;
+    font-size: 2rem;
     text-align: center;
     border-radius: 0;
     position: relative;
