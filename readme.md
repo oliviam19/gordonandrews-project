@@ -13,15 +13,15 @@ I also completely redesigned the Work page on both mobile and desktop, as lookin
 ## Sources Used and Image References
 
 In creating this website, I wanted to learn something new and create a favicon. I found a simple tutorial on W3schools.com, that helped me achieve this.    
-        W3Schools. (n.d.). How to add a favicon in HTML. https://www.w3schools.com/howto/howto_html_favicon.asp
+_W3Schools. (n.d.). How to add a favicon in HTML. https://www.w3schools.com/howto/howto_html_favicon.asp_
 
 For my revamped Work page, although the new concept was my own idea, I was unsure on how to implement it and achieve the concept that I wanted. I ended up asking GenAI the best methods of achieving this grid layout as a basis to work off of, as well as the best way to achieve the clicking effect on mobile and the hovering effect on desktop. I found this very helpful in terms of learning, as it gave me an informative base to experiment with.
 
-      All Australian banknote photos sourced from Coins and Australia.
-      Coins and Australia. (n.d.). Coins and Australia. https://www.coinsandaustralia.com/index.php
+_All Australian banknote photos sourced from Coins and Australia.
+Coins and Australia. (n.d.). Coins and Australia. https://www.coinsandaustralia.com/index.php_
 
-      Mackenzie, R. (n.d.). Australian twenty dollar note [Photograph]. Dreamstime.
-      https://www.dreamstime.com/royalty-free-stock-image-australian-twenty-dollar-note-image2297726
+_Mackenzie, R. (n.d.). Australian twenty dollar note [Photograph]. Dreamstime.
+https://www.dreamstime.com/royalty-free-stock-image-australian-twenty-dollar-note-image2297726_
 
 
 ## Overall Evaluation
