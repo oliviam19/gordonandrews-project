@@ -27,3 +27,8 @@ https://www.dreamstime.com/royalty-free-stock-image-australian-twenty-dollar-not
 ## Overall Evaluation
 
 Overall, I am satisfied with the end result of this project. Although there are some aspects thatcould definitely be improved, such as the scaling and positioning of elements when transitioning between screen sizes, I am proud of myself for what I've been able to design and create, as most of this was a learning experience. This process was largely trial and error, and learning by figuring out what works and what doesn't. This project allowed me to incorporate my existing skills and passions, such as logo design and image editing, whilst practising my problem-solving (a lot) and learning a large amount about responsive design.
+
+
+## Live Link to Project
+
+https://oliviam19.github.io/gordonandrews-project/
